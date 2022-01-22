@@ -60,9 +60,7 @@ while True:
 		window["st"]("")
 		window["et"]("")
 		window["cn"]("")
-		window["lunchStat"]("")
 		window["tid"]("")
-		window["stats"]("")
 		window["it"]("")
 		window["com"]("")
 
