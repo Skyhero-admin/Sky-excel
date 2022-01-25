@@ -50,10 +50,9 @@ while True:
 				my_file.write(str(values["et"])+"\n")
 				my_file.write(str(values["cn"])+"\n")
 				my_file.write(str(values["tid"])+"\n")
-				my_file.write(str(values["stats"][0])+"\n")
 				my_file.write(str(values["it"])+"\n\n")
 				my_file.write(str(values["com"])+"\n")
-				my_file.write("---------------\n")
+				my_file.write("==========================================================\n")
 
 				break
 		my_file.close()
