@@ -12,7 +12,7 @@ count=0
 window=sg.Window("Sky-excel",
 	layout=[
 	[sg.Text("Choose file:"),sg.In(enable_events=True, justification='center',key="YourSheet"), sg.FileBrowse()],
-	[sg.Text("Ticket Id:   "),sg.InputText(justification='center',key="tid"),sg.Text("Ticket done: "+str(count), key="ct")],
+	[sg.Text("Ticket Id:   "),sg.InputText(justification='center',key="tid"),sg.Text("Ticket not loaded ...", key="ct")],
 	[sg.Text("Start Time: "),sg.InputText(justification='center',key="st")],
 	[sg.Text("End Time:  "),sg.InputText(justification='center',key="et")],
 	[sg.Text("Status:         "),sg.Listbox(choices,size=(25,len(choices)),key="stats")],
