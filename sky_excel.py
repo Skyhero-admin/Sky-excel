@@ -43,10 +43,11 @@ while True:
 				i+=1
 			elif (ws[f"A{i}"].value)==None:
 				ws[f"A{i}"]=str(values["tid"])
-				ws[f"C{i}"]=str(values["st"])
-				ws[f"D{i}"]=str(values["et"])
-				ws[f"F{i}"]=str(values["stats"][0])
-				ws[f"G{i}"]=str(values["lunchStat"][0])
+				ws[f"B{i}"]=str(values["cn"])
+				ws[f"D{i}"]=str(values["st"])
+				ws[f"E{i}"]=str(values["et"])
+				ws[f"G{i}"]=str(values["stats"][0])
+				ws[f"H{i}"]=str(values["lunchStat"][0])
 				wb.save(values["YourSheet"])
 
 				my_file.write(str(values["st"])+"\n")
